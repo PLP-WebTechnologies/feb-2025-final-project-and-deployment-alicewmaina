@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Blog</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>My Awesome Blog</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="search-area">
+      <input type="text" id="searchInput" placeholder="Search blog posts..." onkeyup="searchPosts()" />
+    </section>
+
+    <section class="posts">
+      <article class="post">
+        <h2>Learning HTML</h2>
+        <p class="excerpt">HTML forms the building blocks of the web. Learn how to structure content.</p>
+        <a href="#">Read more</a>
+      </article>
+
+      <article class="post">
+        <h2>CSS Basics</h2>
+        <p class="excerpt">CSS allows you to style HTML elements. Learn about colors, layouts, and fonts.</p>
+        <a href="#">Read more</a>
+      </article>
+
+      <article class="post">
+        <h2>JavaScript for Beginners</h2>
+        <p class="excerpt">JavaScript brings interactivity to your web pages. Learn variables, functions, and events.</p>
+        <a href="#">Read more</a>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Blog | Designed for the Final Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
